@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Glocery list</title>
+		<style>
+			@import url("https://fonts.googleapis.com/css?family=Roboto&subset=medium,medium-ext");
+
+			* {
+				padding: 0;
+				margin: 0;
+			}
+			
+			body {
+				background: black;
+				font-family: Ink Free;
+				color: white;
+			}
+
+			#inp {
+				width: 460px;
+			}
+			
+			.container {
+				width: 480px;
+				margin: auto;
+				display: flex;
+				background: url("kosmos.jpg");
+				background-size: 1500px;
+				border-radius: 20px;
+				box-shadow: 0px 0px 5px #1E90FF
+			}
+			
+			.groceries {
+				width: 600px;
+				min-height: 100vh;
+				margin: auto;
+				border-radius: 20px;
+			}
+			
+			.groceries h1 {
+				font-size: 25px;
+				margin-top: 15px;
+				font-family: "Roboto", medium;
+			}
+
+			#divek {
+				color: white;
+				font-family: Ink Free;
+				margin-top: 40px;
+			}
+
+			input {
+				background: none;
+				border: 1px solid white;
+				height: 40px;
+				margin-top: 9px;
+				color: white;
+				font-size: 30px;
+			}
+
+			button {
+				width: 200px;
+				background: #1E90FF;
+				border: 1px solid black;
+				font-family: "Roboto", light;
+				color: white;
+				margin-top: 70px;
+				height: 40px;
+				border-radius: 20px;
+			}
+
+			button:hover {
+				width: 200px;
+				background: #1E90FF;
+				border: 1px solid black;
+				font-family: "Roboto", light;
+				color: white;
+				margin-top: 70px;
+				height: 40px;
+				border-radius: 20px;
+				box-shadow: 0px 0px 5px #1E90FF;
+			}
+			
+			#input {
+				background: #1E90FF;
+				border-radius: 20px;
+				height: 60px;
+				padding-top: 20px;
+				margin-bottom: 20px;
+			}
+
+			#h1 {
+				margin-top: 10px;
+			}
+
+			#warstwa {
+				height: 185px;
+				background: gray;
+				border-radius: 20px;
+			}
+			
+		</style>
+		<script>
+			function publices(){
+				a = document.getElementById("inp").value;
+				
+				document.getElementById("divek").innerHTML += a + "<br>";
+			}
+		</script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="groceries" align="center">
+				<div id="warstwa">
+					<div id="podwarstwa">
+						<div id="input">
+							<h1 id="h1">LISTA SPRAW DO ZAŁATWIENIA!</h1>
+						</div>
+					<input type="text" id="inp"><br>
+					</div>
+					<button onclick="publices()">DODAJ</button><br>
+					<h2 id="divek"></h2>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
