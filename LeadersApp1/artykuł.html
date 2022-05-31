@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>LeadersApp</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Segoe">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="arkusz1.css">
+	<script>
+		function publices()
+		{
+			a = document.getElementById("textarea").value;
+			publice();
+		}
+
+		function publice() {
+			document.getElementById("public").innerHTML += a + "<br>";
+		}
+	</script>
+</head>
+<body>
+	<img src="LeadersApp_white.png" alt="aplikacja" width="480" height="270">
+	<p class="text">Napisz artykuł</p>
+	<textarea rows="4" cols="100" id="textarea"></textarea><br>
+	<button onclick="publices()">Dodaj zadanie</button>
+	<div id="public"></div>
+</body>
+</html>
