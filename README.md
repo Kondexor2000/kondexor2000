@@ -1,16 +1,27 @@
-## Hi there 👋
+# Portfolio - Back-end Developer
 
-<!--
-**Kondexor2000/kondexor2000** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Imię i nazwisko
+Konrad Kościecha
 
-Here are some ideas to get you started:
+## O mnie
+Jestem studentem kierunku Technologie Informatyczne na Nadnoteckim Instytucie UAM w Pile, zajmującym się w wolnym czasie tworzeniem projektów programistycznych za pomocą narzędzi będących na liście "Technologie".
+Prezentuję swoje doświadczenie udostępnionymi przeze mnie projektami na liście "Projekty"
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Technologie
+- Django
+- Django REST Framework
+- Python
+- PyTest
+- PostgreSQL
+- GIT
+- JavaScript
+- HTML/CSS
+
+## Projekty
+- [Projekt nr 1 - Serwis społecznościowy]([link_do_projektu](https://github.com/Kondexor2000/SocialService))
+- [Projekt nr 2 - System zapisywania numerów telefonów do negocjacji cen i terminów]([link_do_projektu](https://github.com/Kondexor2000/reservation))
+- [Projekt nr 3 - Automatyzacja wyszukiwania komputerów gamingowych]([link_do_projektu](https://github.com/Kondexor2000/gaming))
+
+
+## Kontakt
+E-mail: k.kosciecha20@gmail.com
