@@ -18,9 +18,9 @@ Prezentuję swoje doświadczenie udostępnionymi przeze mnie projektami na liśc
 - HTML/CSS
 
 ## Projekty
-- [Projekt nr 1 - Serwis społecznościowy]([link_do_projektu](https://github.com/Kondexor2000/SocialService))
-- [Projekt nr 2 - System zapisywania numerów telefonów do negocjacji cen i terminów]([link_do_projektu](https://github.com/Kondexor2000/reservation))
-- [Projekt nr 3 - Automatyzacja wyszukiwania komputerów gamingowych]([link_do_projektu](https://github.com/Kondexor2000/gaming))
+- [Projekt nr 1 - Serwis społecznościowy](https://github.com/Kondexor2000/SocialService)
+- [Projekt nr 2 - System zapisywania numerów telefonów do negocjacji cen i terminów](https://github.com/Kondexor2000/reservation)
+- [Projekt nr 3 - Automatyzacja wyszukiwania komputerów gamingowych](https://github.com/Kondexor2000/gaming)
 
 
 ## Kontakt
